@@ -268,12 +268,9 @@ class Gofile:
         data = {}
         for k, v in kwargs.items():
             if k == "folder_id" and v:
-                data = {}
-                data["folderId"] = v
+                data = {"folderId": v}
                 return data
-            elif k == "description" and v:
-                data[k] = str(v)
-            elif k == "password" and v:
+            elif k == "description" and v or k == "password" and v:
                 data[k] = str(v)
             elif k == "tags" and v:
                 data[k] = str(v).replace(" ", "")
