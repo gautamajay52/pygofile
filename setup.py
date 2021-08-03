@@ -16,7 +16,7 @@ from setuptools import find_packages, setup
 AUTHOR = "gautamajay52"
 EMAIL = "gautamajay52@gmail.com"
 URL = "https://github.com/gautamajay52/pygofile"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 
 with open("README.md", "r", encoding="utf-8") as fh:

@@ -16,7 +16,7 @@ __author__ = "https://github.com/gautamajay52"
 __copyright__ = "Copyright 2021 <https://github.com/gautamajay52>"
 __license__ = "MIT"
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 from .gofile import Gofile
 
